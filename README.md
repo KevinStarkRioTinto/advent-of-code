@@ -33,4 +33,4 @@ https://adventofcode.com/2022
 
 Teams: 
 - Leaderboard: [Charlie Yin](https://adventofcode.com/2022/leaderboard/private/view/2343282)  
-  Repo: [rio-tinto/adventofcode2022](github.com/rio-tinto/adventofcode2022)
+  Repo: [rio-tinto/adventofcode2022](https://github.com/rio-tinto/adventofcode2022)
