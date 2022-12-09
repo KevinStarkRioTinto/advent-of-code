@@ -31,4 +31,6 @@ https://adventofcode.com/2022
 |[19](2022/19)|[20](2022/20)|[21](2022/21)|[22](2022/22)|[23](2022/23)|[24](2022/24)|[25](2022/25)|
 
 
-Leaderboard: [Charlie Yin](https://adventofcode.com/2022/leaderboard/private/view/2343282)
+Teams: 
+- Leaderboard: [Charlie Yin](https://adventofcode.com/2022/leaderboard/private/view/2343282)  
+  Repo: [rio-tinto/adventofcode2022](github.com/rio-tinto/adventofcode2022)
