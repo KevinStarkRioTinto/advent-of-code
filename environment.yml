@@ -1,0 +1,11 @@
+name: aoc
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - ipykernel
+      - ipywidgets
+      - git+https://github.com/fergusch/advent-cli.git
