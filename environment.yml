@@ -8,4 +8,8 @@ dependencies:
   - pip:
       - ipykernel
       - ipywidgets
+      - numpy
+      - pandas
       - git+https://github.com/fergusch/advent-cli.git
+variables:
+  ADVENT_PRIV_BOARDS: 2706508
