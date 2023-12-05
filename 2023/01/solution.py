@@ -7,6 +7,7 @@ def parse_input(lines):
     return lines
 
 def part1(data):
+    # Get first and last digit from string as a 2-digit int
     first_last = []
     for line in data:
        nums = [
@@ -15,8 +16,9 @@ def part1(data):
                "(?=([0-9]))", line
             )
        ]
+       # May only have one digit
        first_last.append(nums[0] * 10 + nums[-1])
-       
+    # Sum of line numbers
     return sum(first_last)
 
 digit_lookup = {
@@ -32,12 +34,14 @@ digit_lookup = {
 }
 
 def to_numeric(s: str) -> int:
+  # Convert number from char or text
   if s.isdigit():
     return int(s)
   else:
     return digit_lookup[s.lower()]
 
 def part2(data):
+    # Line may now have numeric words
     first_last = []
     for line in data:
         nums = [
