@@ -7,6 +7,8 @@ conda activate aoc
 pip install advent-cli
 ```
 
+<https://github.com/fergusch/advent-cli>
+
 ```sh
 # Set session cookie
 (cd $CONDA_PREFIX && code ./etc/conda/activate.d/env_vars.sh)
@@ -31,7 +33,6 @@ advent --help
 
 ## Workflow
 
-<https://github.com/fergusch/advent-cli>
 
 
 ```sh
